@@ -6,8 +6,17 @@
 
 body {
   height: 100vh;
-  display: flex;
-  background: #060AB2;
+  /* display: flex; */
+  background: #e2d1c4;
+}
+
+h1 {
+  text-align: center;
+  color: #241a18;
+  font-size: 50px;
+  font-family: sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .memory-game {
@@ -29,6 +38,7 @@ body {
   transform: scale(1);
   transform-style: preserve-3d;
   transition: transform .5s;
+  border-radius: 5px;
 }
 
 .memory-card:active {
@@ -47,7 +57,7 @@ body {
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  background: #1C7CCC;
+  background: #241a18;
   backface-visibility: hidden;
 }
 
