@@ -46,7 +46,7 @@ function unflipCards() {
   setTimeout(() => {
     firstCard.classList.remove('flip');
     secondCard.classList.remove('flip');
-
+    console.log('No match. Try again!');
     resetBoard();
   }, 1500);
 }
