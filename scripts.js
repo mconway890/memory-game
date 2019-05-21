@@ -48,7 +48,7 @@ function unflipCards() {
     secondCard.classList.remove('flip');
     console.log('No match. Try again!');
     resetBoard();
-  }, 1500);
+  }, 1000);
 }
 
 function resetBoard() {
