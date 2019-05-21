@@ -37,7 +37,7 @@ function checkForMatch() {
 function disableCards() {
   firstCard.removeEventListener('click', flipCard);
   secondCard.removeEventListener('click', flipCard);
-
+  console.log('You got a match!');
   resetBoard();
 }
 
